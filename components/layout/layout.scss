@@ -1,0 +1,20 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    @media screen and (width>768px) {
+       max-width: 768px;
+    }
+}
+
+@media screen and (width>768px) {
+    .preview {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}

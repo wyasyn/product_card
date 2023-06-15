@@ -1,0 +1,67 @@
+.infor {
+  padding: 2em;
+  background: var(--White);
+  border-radius: 0 0 10px 10px;
+}
+@media screen and (width > 768px) {
+  .infor {
+    border-radius: 0 10px 10px 0;
+  }
+}
+.infor h3 {
+  text-transform: uppercase;
+  color: var(--Dark-grayish-blue);
+  font-family: var(--ff-body);
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+}
+.infor h1 {
+  font-family: var(--ff-heading);
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 0.5em 0;
+}
+.infor p {
+  color: var(--Dark-grayish-blue);
+  font-family: var(--ff-body);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+.infor .amount {
+  gap: 2rem;
+  align-items: center;
+}
+.infor .amount .value {
+  color: var(--Dark-cyan);
+  font-size: 3rem;
+  font-family: var(--ff-heading);
+}
+.infor .amount .crossed {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--ff-body);
+  text-decoration: line-through;
+}
+.infor .btn {
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+  margin: 1em 0;
+  width: 100%;
+  background: var(--Dark-cyan);
+  color: var(--White);
+  border-radius: 8px;
+  gap: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: var(--ff-body);
+  transition: opacity 0.3s ease-in-out;
+}
+.infor .btn img {
+  height: 15px;
+  width: auto;
+}
+.infor .btn:hover {
+  opacity: 80%;
+}/*# sourceMappingURL=content.css.map */

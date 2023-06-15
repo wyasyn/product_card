@@ -1,0 +1,16 @@
+.img {
+  height: 300px;
+  width: 100%;
+  background-image: url("/images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+@media screen and (width > 768px) {
+  .img {
+    height: 100%;
+    background-image: url("/images/image-product-desktop.jpg");
+    border-radius: 10px 0 0 10px;
+  }
+}/*# sourceMappingURL=img.css.map */
